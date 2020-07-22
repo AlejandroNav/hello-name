@@ -32,13 +32,16 @@ body {
          opacity: .6;
         background-color: #D0FEFE;
     }
-    .small-image{
+/*    .small-image{
         width: 100px;
-    }
-    .large-image{
-        width: 500px;
-    }
-    .border3 {
+    }*/
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+    .border2 {
     border-color: green;
     border-width: 1px;
     border-style: solid;
