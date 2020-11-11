@@ -41,12 +41,12 @@ body {
   margin-right: auto;
   width: 60%;
 }
-    .border2 {
+    .border {
     border-color: green;
-    border-width: 1px;
+    border-width: 4px;
     border-style: solid;
     border-radius: 2px; 
-    background-color: rgb(223, 174, 166);
+    background-color: rgb(24, 60, 75);
     } 
     .backy{
         background-color:#1F3B4D;
