@@ -2,35 +2,36 @@ body {
     max-width: 750px;
     margin: 10px auto;
     padding: 0 10px;
-    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #D0FEFE;
+    font: 29px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #CB7723;
     }
     p{
-        font-size: 18px;
+        font-size: 29px;
         padding: 5px 5px;
         line-height: 25px;
     }
     .co {
       color: #0f2f42;
       font-family: Questrial, sans-serif;
-      font-size: xx-large;
+      font-size: 29px;
       font-weight: bold;
       text-align: center;
       position: sticky;
       top: 0;
-      background-color:#D0FEFE
+      background-color:#CB7723
 ;
     }
     .bl{
-        font-size: large;
+        font-size: 29px;
         font-family: Questrial, sans-serif;
-        color: #D0FEFE;
+        color: #CB7723;
     }
     .re{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color:#42b2b4;
          opacity: .6;
-        background-color: #D0FEFE;
+        background-color: #CB7723;
+        font-size: 29px;
     }
 /*    .small-image{
         width: 100px;
@@ -41,7 +42,7 @@ body {
   margin-right: auto;
   width: 60%;
 }
-    .border {
+    .border2 {
     border-color: green;
     border-width: 4px;
     border-style: solid;
@@ -49,7 +50,7 @@ body {
     background-color: rgb(24, 60, 75);
     } 
     .backy{
-        background-color:#1F3B4D;
+        background-color:#214761;
     }
     .skewed {
     position: absolute;
@@ -64,4 +65,4 @@ body {
     transform: skewY(10deg);
     transform-origin: top right;
     }
-    a { color: #358bbd; } /* CSS link color */
+    a { color: #BB3F3F; } /* CSS link color */
