@@ -40,12 +40,11 @@ body {
   margin-right: auto;
   width: 60%;
 }
-bordercircle{
-    border-color: green;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 2px; 
-    background-color: rgb(24, 60, 75);
+.bordercircle{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius: 50%; 
 }
 
 
