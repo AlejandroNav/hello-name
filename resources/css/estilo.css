@@ -6,7 +6,7 @@ body {
     color: #CB7723;
     }
     p{
-        font-size: 29px;
+        font-size: 24px;
         padding: 5px 5px;
         line-height: 25px;
     }
@@ -29,10 +29,14 @@ body {
     .re{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color:#42b2b4;
-         opacity: .6;
+         opacity: .6;  
         background-color: #CB7723;
         font-size: 29px;
     }
+    .blues-background{
+        background-color: #164361ef;
+        ;
+     }
 
 .centerimage {
   display: block;
@@ -56,7 +60,7 @@ body {
     background-color: rgb(24, 60, 75);
     } 
     .backy{
-        background-color:#214761;
+        background-color:#214761ea;
     }
     .skewed {
     position: absolute;
