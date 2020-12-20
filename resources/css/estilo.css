@@ -3,15 +3,23 @@ body {
     margin: 10px auto;
     padding: 0 10px;
     font: 29px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #3F84E5;
+    color: #5F0F40;
     }
     p{
         font-size: 24px;
         padding: 5px 5px;
         line-height: 25px;
+        color: #E36414;
     }
+    .p2{
+        font-size: 24px;
+        padding: 5px 5px;
+        line-height: 25px;
+        color: #5F0F40;
+    }
+
     .co {
-      color: #F0E2E7;
+      color: #FB8B24;
       font-family: Questrial, sans-serif;
       font-size: 29px;
       font-weight: bold;
@@ -28,14 +36,16 @@ body {
     }
     .re{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color:#3F784C;
-         opacity: .6;
-        background-color: #CB7723;
+        color:#FB8B24;
+         opacity: .8;
+        background-color: #9A031E;
         font-size: 29px;
     }
     .blues-background{
-        background-color: #3F784C;
-        ;
+        background-color: #9A031E;
+        font-size: 29px;
+        color:#FB8B24;
+        
      }
 
 .centerimage {
@@ -52,6 +62,12 @@ body {
 }
 
 
+.backy{
+    background-color:#E36414;
+}
+
+
+
     .border2 {
     border-color: green;
     border-width: 4px;
@@ -59,9 +75,8 @@ body {
     border-radius: 2px;
     background-color: rgb(24, 60, 75);
     }
-    .backy{
-        background-color:#214761ea;
-    }
+
+
     .skewed {
     position: absolute;
     top: 0;
@@ -75,4 +90,7 @@ body {
     transform: skewY(10deg);
     transform-origin: top right;
     }
-    a { color: #BB3F3F; } /* CSS link color */
+    a {
+         color: #5F0F40; 
+         font-weight: bold;
+        } /* CSS link color */
