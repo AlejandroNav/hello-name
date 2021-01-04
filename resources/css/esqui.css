@@ -1,0 +1,11 @@
+html{
+    font-family: 'Rajdhani', sans-serif;
+
+}
+main{
+    background-color: #111d5e;
+    color: #c70039;
+    color: #f37121;
+    color: #c0e218;
+    font-family: var(--fonts-primary);
+}
