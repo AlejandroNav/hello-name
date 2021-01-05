@@ -51,14 +51,129 @@ table {
 /* Start REAL CSS HERe*//* Start REAL CSS HERe*/
 /* Start REAL CSS HERe*//* Start REAL CSS HERe*/
 /* Start REAL CSS HERe*//* Start REAL CSS HERe*/
+
 html{
     font-family: 'Rajdhani', sans-serif;
+   
+    font-size: 14px;
+
 
 }
 main{
-    background-color: #111d5e;
-    color: #c70039;
-    color: #f37121;
-    color: #c0e218;
-    font-family: var(--fonts-primary);
+    color: #00C2CC;
+    background: linear-gradient(45deg, #491a19 , #471F1F, #943B38,#B65753 ,#773432);
+    line-height: 1.5;
+    text-align: center;
+    padding: 25px;
+
+    
 }
+
+ul,div{
+    margin-bottom: 1.5em;
+    background-color: black;
+    padding: 1em;
+}
+p{
+    margin-bottom: 1.4rem;
+    
+}
+article{
+    margin-bottom: 1.5em;
+    background-color: black;
+    padding: 1em;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+}
+
+#tribute-info{
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+    
+}
+
+
+
+img {
+    max-width: 60%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    font-size: 1.2em;
+  }
+  
+  @media (min-width: 840px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+ 
+    }
+    html{
+     background-color: #fbf203;       
+    }
+          
+    #main{
+        font-size: 1.2rem;
+        line-height: 1.7;
+        padding: 25px;
+        border-radius: 25px;
+        border: 4px solid #00C2CC;
+        margin: 3em;
+    }
+
+    #img-caption {
+      font-size: 1.7rem;
+    }
+
+    #tribute-info{
+        flex-direction: row-reverse;
+        min-width: 750px;
+        max-width: 1500px;
+        align-items:stretch;
+    }
+
+    ul{
+        min-width: 12em;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+
+    div{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    article{
+        min-width: 10em;
+        text-align: center;
+
+    }
+
+
+
+  }
+
