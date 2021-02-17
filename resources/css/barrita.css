@@ -1,0 +1,76 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.barranav{
+    color: rgb(141, 141, 86);
+    background-color: rgb(255, 169, 71);\
+    overflow:hidden;
+    height: 60px;
+}
+.barranav a{
+    color: rgb(117  , 117, 0);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 17px ;
+}
+.barranav ul{
+    padding: 8px 0px 0px 0px;
+    list-style: none;
+}
+
+.barranav a:hover{
+background-color: rgb(221, 130, 25);
+color: black;
+}
+
+.sidenav{
+    height:  100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(231, 140, 80);
+    
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 70px;
+    transition: .7s;
+}
+.sidenav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(71, 46, 22);
+    display: block;
+    transition: .5s;
+}
+.sidenav :hover{
+ 
+    color: rgb(255, 255, 255);
+ 
+}
+
+.sidenav .boton-cerrar{
+    position:absolute;
+    top 0px;
+    right: 15px;
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 0%;
+}
+#main{
+transition:margin-left 0.5s ;
+padding: 20px;
+overflow: hidden;
+width: 100%;
+}
+
+@media(max-width:568px){
+    .lista-superior{
+        display: none;
+    }
+}
