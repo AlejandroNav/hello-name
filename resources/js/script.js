@@ -1,5 +1,7 @@
 const canvas = document.getElementById('canvas1');
 const context = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
 window.addEventListener('resize', function () {
     canvas.width = window.innerWidth;
@@ -7,31 +9,51 @@ window.addEventListener('resize', function () {
 
 })
 const mouse = {
-    x:null,
-    y:null,
+    x: null,
+    y: null,
 }
 canvas.addEventListener('click', function (event) {
-    mouse.x=event.x
-    mouse.y=event.y
-    drawCircle(mouse.x,mouse.y);
+    mouse.x = event.x
+    mouse.y = event.y
+    drawCircle();
 })
 canvas.addEventListener('mousemove', function (event) {
-    mouse.x=event.x
-    mouse.y=event.y
-    drawCircle(mouse.x,mouse.y);
+    mouse.x = event.x
+    mouse.y = event.y
+    drawCircle();
 })
-function drawCircle(eq,ye) {
-context.strokeStyle = 'red';
-context.lineWidth = 2;
-context.beginPath();
-context.arc(eq, ye, 10, 0, Math.PI * 2);
-context.stroke();
-}
-function randomCoord() {
-   const x = Math.ceil(Math.random() * 900 +50)
-   return x
+
+function drawCircle() {
+    context.fillStyle = 'blue';
+    context.beginPath();
+    context.arc(mouse.x, mouse.y, 20, 0, Math.PI * 2);
+    context.fill();
 }
 
-for (let index = 0; index < 40; index++) {
-    drawCircle(randomCoord(),randomCoord())
+
+class Particle {
+    constructor() {
+        this.x = mouse.x;
+        this.y = mouse.y;
+        this.size = Math.random() * 6 + 3;
+        this.speedX = Math.random() * 3 - 1.5;
+        this.speedY = Math.random() * 3 - 1.5;
+    }
+    update(){
+        this.x += this.speedX
+        this.y += this.speedy
+    }
+    draw(){
+
+    }
+
 }
+
+function animate() {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    //     drawCicle();
+    drawCircle();
+    requestAnimationFrame(animate)
+    console.log("si funciona");
+}
+animate();
