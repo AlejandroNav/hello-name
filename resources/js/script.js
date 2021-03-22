@@ -49,13 +49,13 @@ class Particle {
     }
 }
 
- function init() {
-     for (let index = 0; index < 1500; index++) {
-         particulMatriz.push(new Particle());
-     }
+function init() {
+    for (let index = 0; index < 1500; index++) {
+        particulMatriz.push(new Particle());
+    }
 
- }
- init();
+}
+init();
 
 function handleParticles() {
     for (let i = 0; i < 1500; i++) {
