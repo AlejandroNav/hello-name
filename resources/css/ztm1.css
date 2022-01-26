@@ -1,10 +1,23 @@
 html{
-    background-color: #F5BF03;
-    color: #3C4142;
+    background-color: #797979;
+    background-blend-mode: darken;
+    color: #ffc916;
+    size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
-    color: #7a5e00;
-    border: 5px  solid #f0dd9a;
-    padding: 10px;
+input{
+    
+    border: 2px  solid #faeab0;
+    padding: 7px;
     margin: 10px;
+    background-color: #646768;
+    
+}
+p{
+    color: #ebd797;
+}
+
+img{
+    width: 20em;
+    float: inline-start;
 }
