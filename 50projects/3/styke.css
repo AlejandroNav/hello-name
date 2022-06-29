@@ -23,7 +23,7 @@ body{
     justify-content: space-between;
     position: relative;
     margin-bottom: 30px;
-    max-width: 100%;
+    max-width: 90%;
     width: 350px;
 }
 .progress-container::before{
@@ -32,7 +32,7 @@ body{
     position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    width: 99%;
     height: 5px;
     transform: translateY(-50%);
     z-index: -1;
